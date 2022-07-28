@@ -7,8 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /* CUSTOM COLOR VARIABLES */
-:root{
-  --color-yollow : #f9c74f;
+:root {
+  --color-yollow: #f9c74f;
   --color-purple: #9d4edd;
 }
 
@@ -23,12 +23,19 @@
   padding: 4em 0;
 }
 
-.bg-yellow{
+.bg-yellow {
   background-color: var(--color-yollow);
 }
 
-.bg-purple{
+.bg-purple {
   background-color: var(--color-purple);
 }
 
-
+.chart .title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
