@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "boxicons": "^2.1.2",
     "chart.js": "^3.8.2",
     "react": "^17.0.2",
     "react-chartjs-2": "^4.0.1",
