@@ -26,9 +26,7 @@ export const Labels = () => {
 };
 // function for the construction of the dinamic labels 
 const LabelComponent = ({ data }) => {
-
     data ?? <></>
-
     return (
         <div className="labels flex justify-between">
             <div className="flex gap-2">
